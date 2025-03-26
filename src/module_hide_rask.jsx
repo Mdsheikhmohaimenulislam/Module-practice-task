@@ -12,7 +12,7 @@ export default function HideSection(){
 
     return(
         <div className="card">
-            <h1 id="title" hidden >Hide Section</h1>
+            <h1 id="title" hidden >Hello React Learner !</h1>
             <button onClick={textShow}>Show</button>
             <button onClick={textHide}>Hide</button>
         </div>
