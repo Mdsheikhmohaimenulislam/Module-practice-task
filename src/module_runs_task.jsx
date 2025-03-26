@@ -22,7 +22,7 @@ export default function Runs(){
         setRuns(0)       
     }
     return(
-        <div>
+        <div className="card">
             <h1>Run Count: {runs}</h1>
             <button onClick={countRuns}>Single Runs</button>
             <button onClick={runsSubtraction}>Runs Subtraction</button>
